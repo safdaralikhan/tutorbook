@@ -1,0 +1,169 @@
+/* body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #D1C4E9;
+    background-repeat: no-repeat
+} */
+
+.card {
+    /* margin: 2px 1px; */
+    border: none !important;
+    border-radius: 8px;
+    width: 340px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 350px
+    }
+}
+
+.cardStrip {
+    border-bottom: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.img1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.smText {
+    font-size: 15px
+}
+
+.fa {
+    font-size: 25px;
+    padding: 0px
+}
+
+.faComment {
+    color: gray;
+    cursor: pointer
+}
+
+.faPhone {
+    color: #5964ef;
+    padding-left: 20px;
+    cursor: pointer
+}
+
+.time {
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1px 8px;
+    margin: 0px 6px
+}
+
+.price {
+    font-size: 20px
+}
+
+.textMuted {
+    color: #b5b5b5 !important
+}
+
+/* button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+} */
+
+.btn {
+    width: 48%;
+    height: 55px;
+    margin: 20px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btnWhite {
+    background-color: #fff;
+    color: #000;
+    border: 1px gray solid
+}
+
+.btnWhite:hover {
+    background-color: lightgray;
+    color: #000
+}
+
+.btnPending {
+    background-color: #e71d21;
+    color: #fff;
+    border: 1px #cac6c6 solid;
+    cursor: none;
+    width: 100%;
+}
+.btnAccept {
+    background-color: #188b09;
+    color: #fff;
+    border: 1px #cac6c6 solid;
+}
+/* btnApprove teacher side */
+.btnApprove{
+    background-color: #c7b512;
+    color: black;   
+}
+.btnApproveStudent{
+    background-color: #ddca1a;
+    border: 1px #cac6c6 solid;
+    color: black;   
+    width: 100%;
+}
+.btnPendingStudent{
+    background-color: #ddca1a;
+    border: 1px #cac6c6 solid;
+    color: black;   
+    width: 50%;
+}
+.btnReject{
+    background-color: #e71d21;
+    border: 1px #cac6c6 solid;
+    color: #fff;
+    width: 100%;
+}
+
+/* .btnPending:hover {
+    background-color: #fa4040;
+    color: #fff
+} */
+
+/* superAdmin teacher appointment buttons */
+
+.adminBtnPending{
+    width: 100%;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border: 1px #cac6c6 solid;
+    cursor: default !important;
+}
+.adminBtnDone{
+    width: 100%;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: 1px #cac6c6 solid;
+    cursor: default !important;
+}
+.adminBtnComplete{
+    width: 100%;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border: 1px #cac6c6 solid;
+    cursor: default !important;
+}
+.adminBtnReject{
+    width: 100%;
+    background-color: #e71d21;
+    border: 1px #cac6c6 solid;
+    color: #fff;
+    cursor: default !important;
+}
